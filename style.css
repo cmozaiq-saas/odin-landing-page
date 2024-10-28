@@ -1,0 +1,93 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    border-color: grey;
+}
+
+
+header, footer, .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 1rem 4rem;
+}
+
+section {
+    padding: 1rem 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+   align-items: center;
+   padding: 3rem 4rem !important;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+header a, .hero p, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.hero button {
+    background-color: #3882F6;
+    padding: 1em 3em;
+    border-radius: 0.5rem;
+
+}
+.h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.information { 
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    align-content: start;
+}
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.quote p {
+    align-self: flex-end;
+}
+img {
+    width: 300px;
+}
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #3882F6;
+    border-radius: 1rem;
+    color: #E5E7EB;
+}
+.cta button {
+    padding: 1em 3em;
+    border-radius: 0.5rem;
+}
